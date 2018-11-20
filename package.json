@@ -2,7 +2,11 @@
     "name": "Sapin",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-play-sound": "0.2.0",
+        "node-red-contrib-python3-function": "0.0.4",
+        "node-red-node-random": "0.1.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "Sapin.json",
